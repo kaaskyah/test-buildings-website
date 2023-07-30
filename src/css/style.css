@@ -1,4 +1,4 @@
-@import "normalize.css";
+@import "/node_modules/normalize.css/normalize.css";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;500;700&display=swap");
 html {
   box-sizing: border-box;
@@ -68,7 +68,7 @@ body {
 
 .header {
   min-height: 740px;
-  background-image: url(/images/first-scrn-bg.jpg);
+  background-image: url(/public/images/first-scrn-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
